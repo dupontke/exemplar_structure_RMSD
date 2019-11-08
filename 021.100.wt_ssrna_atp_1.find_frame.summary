@@ -1,0 +1,6 @@
+Using MDAnalysis version: 0.16.1
+To recreate this analysis, run this line:
+./find_frame.py 021.100.wt_ssrna_atp_1.exemplar_structure_rmsd.dat 2 ../traj/truncated.pdb ../Average_structure_calcs/021.100.average_structure.pdb wt_ssrna_atp_1 105000 500000 021 100 
+
+output is written to:
+021.100.wt_ssrna_atp_1.frame_335901.pdb

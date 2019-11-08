@@ -1,0 +1,37 @@
+00   aligned_CAs   'protein and (resid 20:25 or resid 50:55 or resid 73:75 or resid 90:94 or resid 112:116 or resid 142:147 or resid 165:169 or resid 190:194 or resid 214:218 or resid 236:240 or resid 253:258 or resid 303:307) and name CA'
+01   aligned_betas   'protein and (resid 20:25 or resid 50:55 or resid 73:75 or resid 90:94 or resid 112:116 or resid 142:147 or resid 165:169 or resid 190:194 or resid 214:218 or resid 236:240 or resid 253:258 or resid 303:307) and not name H*'
+02   full_protein   'protein and not name H*'
+03   full_backbone   'backbone'
+04   protein-19   'protein and not resid 0:19 and not name H*'
+05   backbone-19   'backbone and not resid 0:19'
+06   Lb3b4_1   'protein and resid 75:88 and not name H*'
+07   motif_2   'protein and resid 115:122 and not name H*'
+08   motif_4a   'protein and resid 216:223 and not name H*'
+09   motif_5   'protein and resid 237:249 and not name H*'
+10   beta_wedges   'protein and resid 260:280 and not name H*'
+11   A5   resname A5 and resid 452 and name N9 C8 N7 C5 C6 N6 N1 C2 N3 C4 O6 N4 C2 O2 O4
+12   A5   resname A5 and resid 452 and name C5' C4' O4' C1' C3' C2' O2'  C5* C4* O4* C1* C3* O3* C2* O2*  O5'
+13   G   resname G and resid 453 and name N9 C8 N7 C5 C6 N6 N1 C2 N3 C4 O6 N4 C2 O2 O4
+14   G   resname G and resid 453 and name C5' C4' O4' C1' C3' C2' O2'  C5* C4* O4* C1* C3* O3* C2* O2* 
+15   G   (resname G and resid 453 and name P OP1 OP2 O5') or (resid 453 and name O3')
+16   A   resname A and resid 454 and name N9 C8 N7 C5 C6 N6 N1 C2 N3 C4 O6 N4 C2 O2 O4
+17   A   resname A and resid 454 and name C5' C4' O4' C1' C3' C2' O2'  C5* C4* O4* C1* C3* O3* C2* O2* 
+18   A   (resname A and resid 454 and name P OP1 OP2 O5') or (resid 454 and name O3')
+19   C   resname C and resid 455 and name N9 C8 N7 C5 C6 N6 N1 C2 N3 C4 O6 N4 C2 O2 O4
+20   C   resname C and resid 455 and name C5' C4' O4' C1' C3' C2' O2'  C5* C4* O4* C1* C3* O3* C2* O2* 
+21   C   (resname C and resid 455 and name P OP1 OP2 O5') or (resid 455 and name O3')
+22   U   resname U and resid 456 and name N9 C8 N7 C5 C6 N6 N1 C2 N3 C4 O6 N4 C2 O2 O4
+23   U   resname U and resid 456 and name C5' C4' O4' C1' C3' C2' O2'  C5* C4* O4* C1* C3* O3* C2* O2* 
+24   U   (resname U and resid 456 and name P OP1 OP2 O5') or (resid 456 and name O3')
+25   A   resname A and resid 457 and name N9 C8 N7 C5 C6 N6 N1 C2 N3 C4 O6 N4 C2 O2 O4
+26   A   resname A and resid 457 and name C5' C4' O4' C1' C3' C2' O2'  C5* C4* O4* C1* C3* O3* C2* O2* 
+27   A   (resname A and resid 457 and name P OP1 OP2 O5') or (resid 457 and name O3')
+28   A3   resname A3 and resid 458 and name N9 C8 N7 C5 C6 N6 N1 C2 N3 C4 O6 N4 C2 O2 O4
+29   A3   resname A3 and resid 458 and name C5' C4' O4' C1' C3' C2' O2'  C5* C4* O4* C1* C3* O3* C2* O2*  O3' 
+30   A3   (resname A3 and resid 458 and name P OP1 OP2 O5') or (resid 458 and name O3')
+31   ATP   resname ATP and resid 459 and name N9 C8 N7 C5 C6 N6 N1 C2 N3 C4 O6 N4 C2 O2 O4
+32   ATP   resname ATP and resid 459 and name C5' C4' O4' C1' C3' C2' O2'  C5* C4* O4* C1* C3* O3* C2* O2* 
+33   ATP   resname ATP and resid 459 and name O5* O2A O1A PA O3A
+34   ATP   resname ATP and resid 459 and name PB O1B O2B O3B
+35   ATP   resname ATP and resid 459 and name PG O1G O2G O3G
+36   MG   resname MG and resid 460

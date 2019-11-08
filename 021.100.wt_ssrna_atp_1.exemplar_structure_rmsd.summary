@@ -1,0 +1,28 @@
+Using MDAnalysis version: 0.16.1
+To recreate this analysis, run this line:
+./rmsd.ref.py rmsd.config 
+
+Parameters used:
+ref_pdb = ../Average_structure_calcs/021.100.average_structure.pdb 
+pdb = ../traj/truncated.pdb 
+traj_loc = ../traj/Truncated/ 
+start = 1 
+end = 100 
+Wrapped = True 
+outputname = 021.100.wt_ssrna_atp_1.exemplar_structure_rmsd.dat 
+selection_file = sel_list.py 
+alignment = protein and name CA and (resid 20:25 50:55 73:75 90:94 112:116 142:147 165:169 190:194 214:218 236:240 253:258 303:307) 
+wrapping_selection = not (resname WAT or resname Na+ or resname Cl- or protein) 
+substrates = nucleic or resname A3 A5 U3 U3 G5 G3 C5 C3 ATP ADP PHX MG 
+homemade_selections = ['A5', 'A3', 'A', 'G5', 'G3', 'G', 'C5', 'C3', 'C', 'T5', 'T3', 'T', 'U5', 'U3', 'U', 'ATP', 'ADP', 'PHX', 'MG'] 
+write_summary = True 
+summary_filename = 021.100.wt_ssrna_atp_1.exemplar_structure_rmsd.summary 
+selection_output = sel_list.out 
+
+
+output is written to:
+021.100.wt_ssrna_atp_1.exemplar_structure_rmsd.dat
+
+Number of steps analyzed: 500000
+
+Atom selections analyzed have been written out to sel_list.out
